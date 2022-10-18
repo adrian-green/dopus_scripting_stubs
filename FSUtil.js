@@ -125,7 +125,7 @@ class FSUtil {
 	 * @param {string|Map} path_or_properties
 	 * @param {Map} properties
 	 * @param {string} type
-	 * @returns {variant}
+	 * @returns {*}
 	 */
 	GetShellProperty(path_or_properties, properties, type) {
 	}

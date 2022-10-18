@@ -42,7 +42,7 @@ class Vars {
 	 *       instead. An example of how to do that is in the <strong>Set</strong>
 	 *       documentation, just below.</p>
 	 * @param {string} name
-	 * @returns {variant}
+	 * @returns {*}
 	 */
 	Get(name) {
 	}
@@ -92,7 +92,7 @@ class Vars {
 	 *       then run again, it will report the variable's value, and the value will
 	 *       persist across a restart.</p>
 	 * @param {string} name
-	 * @param {variant} value
+	 * @param {*} value
 	 *
 	 */
 	Set(name, value) {

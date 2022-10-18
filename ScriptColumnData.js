@@ -92,7 +92,7 @@ class ScriptColumnData {
 	 *       value.<br><br>Note that if the  <!--?xml:namespace prefix = "c1" /-->  {@link ScriptColumn}<strong>.multicol
 	 *       </strong>value is set to <strong>True</strong> when the column is added
 	 *       then this property will be found inside the <strong>columns </strong>  {@link Map}.</p>
-	 * @returns {variant}
+	 * @returns {*}
 	 */
 
 	sort;
@@ -179,7 +179,7 @@ class ScriptColumnData {
 	 *       the list when the list is sorted by this column.<br><br>Note that if the  <!--?xml:namespace prefix = "c1" /-->  {@link ScriptColumn}<strong>.multicol
 	 *       </strong>value is set to <strong>True</strong> when the column is added
 	 *       then this property will be found inside the <strong>columns </strong>  {@link Map}.</p>
-	 * @returns {variant}
+	 * @returns {*}
 	 */
 
 	value;
@@ -188,7 +188,7 @@ class ScriptColumnData {
 	 *       when the column was added.<br><br>Note that if the  <!--?xml:namespace prefix = "c1" /-->  {@link ScriptColumn}<strong>.multicol
 	 *       </strong>value is set to <strong>True</strong> when the column is added
 	 *       then this property will be found inside the <strong>columns </strong>  {@link Map}.</p>
-	 * @returns {variant}
+	 * @returns {*}
 	 */
 
 	userdata;

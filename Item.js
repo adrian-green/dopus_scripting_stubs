@@ -385,7 +385,7 @@ class Item {
 	 *       type, it will be converted automatically to a {@link Vector}</p>
 	 * @param {string} property
 	 * @param {string} type
-	 * @returns {variant}
+	 * @returns {*}
 	 */
 	ShellProp(property, type) {
 	}

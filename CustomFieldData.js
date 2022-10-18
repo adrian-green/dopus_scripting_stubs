@@ -22,7 +22,7 @@ class CustomFieldData {
 	 *         the first element (to specify the default selection), and strings for
 	 *         the remaining elements. </li></ul>
 	 *       <p>&nbsp;</p>
-	 * @returns {variant}
+	 * @returns {*}
 	 */
 
 	_custom_field_property;

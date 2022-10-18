@@ -71,7 +71,7 @@ class Vector {
 	assign(from, start, end){}
 	/**
 	 * <p>Returns the last element in the <strong>Vector</strong>.</p>
-	 * @returns {variant}
+	 * @returns {*}
 	 */
 	back(){}
 	/**
@@ -94,13 +94,13 @@ class Vector {
 	exchange(index1, index2){}
 	/**
 	 * <p>Returns the first element in the <strong>Vector</strong>.</p>
-	 * @returns {variant}
+	 * @returns {*}
 	 */
 	front(){}
 	/**
 	 * <p>Inserts the provided value at the specified position.</p>
 	 * @param {int} index
-	 * @param {variant} value
+	 * @param {*} value
 	 *
 	 */
 	insert(index, value){}
@@ -112,7 +112,7 @@ class Vector {
 	/**
 	 * <p>Adds the provided value to the end of the
 	 *     <strong>Vector</strong>.</p>
-	 * @param {variant} value
+	 * @param {*} value
 	 *
 	 */
 	push_back(value){}

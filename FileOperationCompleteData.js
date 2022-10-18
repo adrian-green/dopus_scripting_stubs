@@ -23,7 +23,7 @@ class FileOperationCompleteData {
 	 *       <p>For "rename" this returns a {@link Map}
 	 *       object that provides a map of all items that were renamed and their new
 	 *       names.</p>
-	 * @returns {variant}
+	 * @returns {*}
 	 */
 
 	data;

@@ -170,7 +170,7 @@ class Msg {
 	/**
 	 * <p>For a <strong>drop</strong> event, this property returns a <strong><a href="Vector.htm">Vector</a> </strong>of <strong><a href="Item.htm">Item</a> </strong>objects, representing the files that
 	 *       were dropped onto your dialog.</p>
-	 * @returns {variant}
+	 * @returns {*}
 	 */
 
 	object;

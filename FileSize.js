@@ -105,7 +105,7 @@ class FileSize {
 	 *       supplied value. You can pass a <em>string</em>, <em>int
 	 *       </em>or&nbsp;<em>currency</em> type, or another <strong>FileSize</strong>
 	 *       object.</p>
-	 * @param {variant} value
+	 * @param {*} value
 	 *
 	 */
 	Div(value) {
@@ -129,7 +129,7 @@ class FileSize {
 	 *       8 bytes, in which case the data contained in the {@link Blob}will be used to form the number.
 	 *       You can use a hexadecimal string by pre-pending <strong>$</strong> or
 	 *       <strong>0x</strong>.</p>
-	 * @param {variant} value
+	 * @param {*} value
 	 */
 	Set(value) {
 	}
@@ -142,7 +142,7 @@ class FileSize {
 	 *       object is <em>unsigned</em> and so the value cannot go below
 	 *   zero.</p>
 
-	 * @param {variant} value
+	 * @param {*} value
 	 *
 	 */
 	Sub(value) {
